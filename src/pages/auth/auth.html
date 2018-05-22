@@ -1,0 +1,21 @@
+<ion-content padding>
+  <ion-fab left top class="main-menu">
+    <button ion-fab menuToggle><ion-icon name="menu"></ion-icon></button>
+  </ion-fab>
+  <div class="logo"></div>
+  <ion-grid class="menu">
+    <ion-row>
+      <ion-col col-12>
+        <button (click)="goAuthfacebook()" ion-button full icon-left class="btn-facebook">
+          <ion-icon name="logo-facebook"></ion-icon> CONTINUAR CON FACEBOOK
+        </button>
+      </ion-col>
+      <ion-col col-12>
+        <button (click)="goAuthregister()" ion-button full class="btn-authregister">CREAR UNA CUENTA</button>
+      </ion-col>
+      <ion-col>
+        <button (click)="goAuthlogin()" ion-button full outline small class="btn-authlogin">Iniciar Sesión</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

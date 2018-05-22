@@ -1,0 +1,205 @@
+// http://ionicframework.com/docs/theming/
+@font-face {
+    font-family: 'GothamRnd-Bold';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-Bold.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-BoldItal';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-BoldItal.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-Book';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-Book.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-BookItal';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-BookItal.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-Light';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-Light.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-LightItal';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-LightItal.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-MedItal';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-MedItal.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-Medium';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-Medium.otf');
+}
+@font-face {
+    font-family: 'GothamRnd-Medium';
+    src: url('../assets/fonts/gotham-rounded/GothamRnd-Medium.otf');
+}
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+#nidoo-app .scroll-content {
+    background-color: #FFF;
+}
+/*
+    Tabs Menus
+*/
+.ion-ios-nidoo-home-outline,
+.ion-md-nidoo-home {
+  content: url('../assets/tabs-icons/icon-nidoo-home.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-home[ng-reflect-is-active=true],
+.ion-md-nidoo-home[ng-reflect-is-active=true] {
+  content: url('../assets/tabs-icons/icon-nidoo-home-active.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-favorites-outline,
+.ion-md-nidoo-favorites {
+  content: url('../assets/tabs-icons/icon-nidoo-favorites.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-favorites[ng-reflect-is-active=true],
+.ion-md-nidoo-favorites[ng-reflect-is-active=true] {
+  content: url('../assets/tabs-icons/icon-nidoo-favorites-active.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-reservations-outline,
+.ion-md-nidoo-reservations {
+  content: url('../assets/tabs-icons/icon-nidoo-reservations.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-reservations[ng-reflect-is-active=true],
+.ion-md-nidoo-reservations[ng-reflect-is-active=true] {
+  content: url('../assets/tabs-icons/icon-nidoo-reservations-active.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-nidoos-outline,
+.ion-md-nidoo-nidoos {
+  content: url('../assets/tabs-icons/icon-nidoo-nidoos.svg');
+  width: 32px;
+  height: 24px;
+}
+.ion-ios-nidoo-nidoos[ng-reflect-is-active=true],
+.ion-md-nidoo-nidoos[ng-reflect-is-active=true] {
+  content: url('../assets/tabs-icons/icon-nidoo-nidoos-active.svg');
+  width: 32px;
+  height: 24px;
+}
+.tabs-md .tabbar {
+    background: #fff;
+}
+.tabs-md .tab-button {
+    color: #b9bbbd;
+    padding: 0;
+    border-bottom: solid 5px #fff;
+}
+.tabs-md .tab-button[aria-selected=true] {
+    color: #804294;
+    padding: 0;
+    border-bottom: solid 5px #804294;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.tabs-md .tab-button-icon {
+    margin-top: 0px;
+    min-width: normal;
+    font-size: normal;
+    color: #b9bbbd;
+    transform: none;    
+    -webkit-transform: none;
+    transform-origin: none;    
+    -webkit-transform-origin: none;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-text {
+    transform: none;    
+    -webkit-transform: none;
+}
+#tab-t0-4{
+    display: none;
+}
+ion-list-header.main-menu-list-header {
+    background-image: url(../assets/imgs/nidoo-main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 120px;
+    background-size: 60%; 
+}
+.main-menu-ion-item {
+    color: #804294;
+}
+/*
+WINDOWS
+*/
+.tabs-wp .tab-button[aria-selected=true] {
+    border-bottom-color: #804294;
+    color: #804294;
+}
+.tabs-wp .tabbar {
+    background: #FFF;
+}
+/*
+IOS
+*/
+.tabs-ios .tabbar {
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-top: 0.55px solid rgba(0, 0, 0, 0.3);
+    background: #FFF;
+}
+.tabs-ios .tab-button-icon {
+    margin-top: 4px;
+    margin-bottom: 1px;
+    min-width: 24px;
+    height: 24px;
+    font-size: 30px;
+    color: #b9bbbd;
+}
+.tabs-ios .tab-button:hover:not(.disable-hover), 
+.tabs-ios .tab-button[aria-selected=true] {
+    color: #804294;
+    border-bottom: solid #804294;
+}
+.tabs-ios .tab-button {
+    border-bottom: solid #FFF;
+}
+.tabs-ios .tab-button {
+    max-width: 240px;
+    min-height: 49px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #b9bbbd;
+    padding: 0 2px;
+}
+/*
+    Custom Img
+*/
+#nidoo-splash-screen .scroll-content {
+    background-image: url('../assets/imgs/logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 160px auto;
+}
+#nidoo-home .scroll-content {
+    background-image: url('../assets/imgs/nidoo-page-home.svg');
+    background-size: cover;
+}

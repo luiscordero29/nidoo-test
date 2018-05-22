@@ -1,0 +1,133 @@
+page-google-maps {  
+    .main-menu .fab-md {
+        color: #804294;
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .main-search {
+        background: none;
+        margin-top: 40px;
+        position: absolute;
+        z-index: 999;
+    }
+    .main-search .searchbar-input-container {
+        width: auto;
+        left: 20px;
+        right: 20px;
+        top: 15px;
+        position: absolute;
+    }
+    .items {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        z-index: 999;
+        top: 105px;
+    }
+    .items .item-md {
+        color: #804294;  
+        cursor: pointer;      
+    }
+    .main-search.searchbar-md .searchbar-input {
+        border-radius: 10px;
+    }
+    ngui-map {
+        height: 100%;
+    }
+    .footer-nidoos {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 300px;
+        background: #fff;
+        z-index: 999;
+    }
+    .footer-nidoos .slide-zoom {
+        text-align: justify;
+        height: 300px;
+    }
+    .footer-nidoos .btn-close-footer-nidoos {
+        right: 0px;
+    }
+    .footer-nidoos .nidoo-detail {
+        height: 240px;
+    }
+    .footer-nidoos .btn-reservation {
+        background-color: #804294;
+    }
+    .footer-nidoos .button-md:hover:not(.disable-hover) {
+        background-color: #804294;
+    }
+    .footer-nidoos .text-primary {
+        color: #575756;
+        font-size: 16px;
+    }
+    .footer-nidoos .text-secondary {
+        color: #575756;
+        font-size: 14px;
+    }
+    .footer-nidoos .thumbnail {
+        margin-top: 35px;
+        height: 115px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .swiper-pagination-fraction, 
+    .swiper-pagination-custom, 
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        left: 0;
+        bottom: 90%;
+        width: 100%;
+    }
+    .swiper-pagination-bullet-active {
+        background: #804294;
+        opacity: 1;
+    }
+    .nidoo-car {
+        bottom: 50px;
+        left: 50px;
+    }
+    .nidoo-car .fab-md {
+        background-image: url('../assets/types-icons/icon-car.png');
+        background-repeat: no-repeat;
+        background-position: center 15px;
+        background-size: 65% auto;
+        background-color: #804294;
+    }
+    .nidoo-car .fab .button-inner {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .nidoo-bicycle {
+        bottom: 50px;        
+    }
+    .nidoo-bicycle .fab-md {
+        background-image: url('../assets/types-icons/icon-bicycle.png');
+        background-repeat: no-repeat;
+        background-position: center 15px;
+        background-size: 50% auto;
+        background-color: #ec8032;
+    }
+    .nidoo-bicycle .fab .button-inner {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .nidoo-motorcycle {
+        bottom: 50px;
+        right: 50px;
+    }
+    .nidoo-motorcycle .fab-md {
+        background-image: url('../assets/types-icons/icon-motorcycle.png');
+        background-repeat: no-repeat;
+        background-position: center 13px;
+        background-size: 50% auto;
+        background-color: #70c2c9;         
+    }
+    .nidoo-motorcycle .fab .button-inner {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+}

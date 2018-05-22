@@ -1,0 +1,76 @@
+<ion-content>
+    
+  <ion-searchbar [(ngModel)]="data.google_address" (ionInput)="getItems($event)" class="main-search" placeholder="¿Dónde quieres parquear?"></ion-searchbar>
+  <ion-list class="items">
+    <ion-item *ngFor="let item of items" (click)="goGoogleMapsAddress(item)">
+      <ion-icon name="ios-locate-outline"></ion-icon> {{ item }}
+    </ion-item>
+  </ion-list>
+
+  <ngui-map 
+    zoom = "{{ MapZoom }}" 
+    center = "{{ MapCenter }}" 
+    >
+    <marker 
+      *ngFor = "let address of positionsAddress" 
+      (click)="showNidoos(address.nidoos)"        
+      [position] = "address.LatLng"
+      [icon] = "address.icon"
+      >
+    </marker>
+  </ngui-map>
+
+  <ion-slides class="footer-nidoos" [hidden]="!IfFooter" pager>
+    <ion-slide *ngFor = "let nidoo of ShowNidoos">
+      
+      <ion-fab class="btn-close-footer-nidoos">
+        <button (click)="hideNidoos()" ion-fab mini color="dark"><ion-icon name="close"></ion-icon></button>
+      </ion-fab>
+      <ion-grid class="nidoo-detail">
+        <ion-row>
+          <ion-col col-12>
+            <div text-center class="thumbnail">
+              <img-loader src="{{ nidoo.photo }}" style="background-position: center center"></img-loader>
+            </div>
+          </ion-col>
+          <ion-col col-12>
+            <div text-center class="text-primary">
+              {{ nidoo.address_one}}
+            </div>
+          </ion-col>
+          <ion-col col-12>
+            <div text-center class="text-secondary">
+              <b>Tipo de Vehiculo:</b> {{ nidoo.type}}
+            </div>
+          </ion-col>
+          <ion-col col-12>
+            <div text-center class="text-secondary">
+              <b>Espacios Disponibles:</b> {{ nidoo.spaces }}
+            </div>
+          </ion-col> [virtualScroll]="nidoo"
+        </ion-row>
+      </ion-grid>
+      <button (click)="viewNidoo(nidoo.id)" ion-button block large class="btn-reservation">SELECCIONAR PARQUEADERO</button>
+    
+    </ion-slide>
+  </ion-slides>
+
+  <ion-fab (click)="filterNidoos('car')" *ngIf="data.typeVehicle.car" bottom left class="nidoo-car">
+    <button ion-fab>
+      Carro
+    </button>
+  </ion-fab>
+
+  <ion-fab (click)="filterNidoos('bicycle')" *ngIf="data.typeVehicle.bicycle" bottom center class="nidoo-bicycle">
+    <button ion-fab>
+      Bici
+    </button>
+  </ion-fab>
+
+  <ion-fab (click)="filterNidoos('motorcycle')" *ngIf="data.typeVehicle.motorcycle" bottom right class="nidoo-motorcycle">
+    <button ion-fab>
+      Moto
+    </button>
+  </ion-fab>
+         
+</ion-content>

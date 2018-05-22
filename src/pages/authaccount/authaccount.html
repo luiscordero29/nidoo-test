@@ -1,0 +1,34 @@
+<ion-content padding>
+  
+  <ion-fab left top class="main-menu">
+    <button ion-fab menuToggle><ion-icon name="menu"></ion-icon></button>
+  </ion-fab>
+  
+  <ion-grid class="content-title">
+    <ion-row>
+      <ion-col col-12>
+        <h1>MI CUENTA</h1>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list>
+      <ion-item-group>
+        <ion-item-divider color="light">Datos Personales</ion-item-divider>
+        <ion-item>Tipo de Documento: {{user.document_type_name}}</ion-item>
+        <ion-item>Número de Documento: {{user.document_number}}</ion-item>
+        <ion-item>Apellidos: {{user.lastname}}</ion-item>
+        <ion-item>Nombres: {{user.name}}</ion-item>
+      </ion-item-group>
+      <ion-item-group>
+        <ion-item-divider color="light">Datos de Contacto</ion-item-divider>
+        <ion-item>Email: {{user.email}}</ion-item>
+        <ion-item>Teléfono: {{user.phone}}</ion-item>
+        <ion-item>Teléfono móvil: {{user.mobile_phone}}</ion-item>
+      </ion-item-group>
+      <ion-item-group *ngIf="user.iscompany">
+        <ion-item-divider color="light">Empresa</ion-item-divider>
+        <ion-item>{{user.company}}</ion-item>
+      </ion-item-group>
+  </ion-list>
+</ion-content>

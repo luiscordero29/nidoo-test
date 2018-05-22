@@ -1,0 +1,47 @@
+page-auth {
+    .main-menu .fab-md {
+        color: #804294;
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .logo {
+        background-image: url('../assets/imgs/nidoo-main.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px; 
+        height: 140px;
+        margin-top: 80px;
+    }
+    .menu {
+        position: absolute;
+        bottom: 25px;
+        left: 0px;
+        right: 0px;
+    }
+    .btn-facebook,
+    .btn-facebook.activated {
+        background-color: #2b388c;
+        color: #fff;
+    }
+    .btn-facebook.button-md:hover:not(.disable-hover) {
+        background-color: #2b388c;
+    }
+    .btn-authregister,
+    .btn-authregister.activated {
+        background-color: #804294;
+        color: #fff;
+    }
+    .btn-authregister.button-md:hover:not(.disable-hover) {
+        background-color: #804294;
+    }
+    .btn-authlogin {
+        border: none;
+        color: #804294;
+        margin-top: 10px; 
+        text-transform: capitalize;
+    }
+    .btn-authlogin.button-outline-md:hover:not(.disable-hover) {
+        background-color: transparent;
+    }
+}

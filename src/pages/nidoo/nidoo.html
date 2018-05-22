@@ -1,0 +1,33 @@
+<ion-content padding>
+    
+  <ion-grid class="content-title">
+    <ion-row>
+      <ion-col col-12>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+      </ion-col>
+      <ion-col col-12>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam esse asperiores eos aspernatur ea blanditiis eligendi repellat architecto voluptas doloribus ducimus pariatur laboriosam quod, illo delectus rerum voluptates culpa vitae.
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+      
+  <ion-list class="content-list">
+    <ion-item>
+      <ion-label><ion-icon name="at"></ion-icon></ion-label>
+      <ion-input [(ngModel)]="fields.email" name="email" type="email" placeholder="Dirección de correo electrónico"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="fieldsVal.email" text-wrap class="errors">
+      {{fieldsVal.email}}
+    </ion-item>
+    <button ion-item class="btn-ion-item"></button>
+  </ion-list>
+      
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 offset-4>
+        <button (click)="applyNidoo()"  ion-button full class="btn-authlogin">SOLICITAR</button>      
+      </ion-col>            
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

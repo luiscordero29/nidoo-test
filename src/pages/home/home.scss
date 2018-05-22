@@ -1,0 +1,19 @@
+page-home {  
+    .main-menu .fab-md {
+        color: #804294;
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .main-search {
+        background: none;
+        margin-top: 60px;
+    }
+    .main-search.searchbar-md .searchbar-input {
+        border-radius: 10px;
+    }
+    .items .item-md {
+        color: #804294;  
+        cursor: pointer;      
+    }
+}

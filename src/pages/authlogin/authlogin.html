@@ -1,0 +1,58 @@
+<ion-content padding>
+  
+  <ion-fab left top class="main-menu">
+    <button ion-fab menuToggle><ion-icon name="menu"></ion-icon></button>
+  </ion-fab>
+  
+  <ion-grid class="content-title">
+    <ion-row>
+      <ion-col col-12>
+        <h1>INICIAR SESIÓN</h1>
+      </ion-col>
+      <ion-col col-12>
+        <button (click)="goAuthfacebook()" ion-button full icon-left class="btn-facebook">
+          <ion-icon name="logo-facebook"></ion-icon> CONTINUAR CON FACEBOOK
+        </button>
+      </ion-col>
+      <ion-col col-12>
+        <div class="divider">
+          <div class="circle"></div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  <ion-list class="content-list">
+    <ion-item *ngIf="fieldsVal.login" text-wrap class="errors">
+      {{fieldsVal.login}}
+    </ion-item>
+    <ion-item>
+      <ion-label><ion-icon name="at"></ion-icon></ion-label>
+      <ion-input [(ngModel)]="fields.email" name="email" type="email" placeholder="Dirección de correo electrónico"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="fieldsVal.email" text-wrap class="errors">
+      {{fieldsVal.email}}
+    </ion-item>
+    <ion-item>
+      <ion-label><ion-icon name="lock"></ion-icon></ion-label>
+      <ion-input [(ngModel)]="fields.password" name="password" type="password" placeholder="Contraseña"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="fieldsVal.password" text-wrap class="errors">
+      {{fieldsVal.password}}
+    </ion-item>
+    <button ion-item class="btn-ion-item"></button>
+  </ion-list>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 offset-4>
+        <button (click)="login()"  ion-button full class="btn-authlogin">INGRESAR</button>      
+      </ion-col>
+      <ion-col col-12>
+        <button (click)="goAuthRegister()" ion-button small outline class="btn-authregister">Crear cuenta</button>      
+        <button (click)="goAuthPasswordEmail()" ion-button small outline class="btn-authpasswordemail">¿Olvidaste tu contraseña?</button>      
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

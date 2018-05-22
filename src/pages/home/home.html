@@ -1,0 +1,14 @@
+<ion-content padding id="nidoo-home">
+  
+  <ion-fab left top class="main-menu">
+    <button ion-fab menuToggle><ion-icon name="menu"></ion-icon></button>
+  </ion-fab>
+  
+  <ion-searchbar [(ngModel)]="data.google_address" (ionInput)="getItems($event)" class="main-search" placeholder="¿Dónde quieres parquear?"></ion-searchbar>
+  <ion-list class="items">
+    <ion-item *ngFor="let item of items" (click)="goGoogleMapsAddress(item)">
+      <ion-icon name="ios-locate-outline"></ion-icon> {{ item }}
+    </ion-item>
+  </ion-list>
+
+</ion-content>

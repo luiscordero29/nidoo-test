@@ -1,0 +1,27 @@
+<ion-menu [content]="content" id="nidoo-app" (ionOpen)="menuOpened()" (ionClose)="menuClosed()">
+  <ion-content>
+    <ion-list class="main-menu-ion-list">
+      <ion-list-header class="main-menu-list-header">
+      </ion-list-header>
+      <button (click)="goHome()" class="main-menu-ion-item" ion-item icon-left>
+        <ion-icon ios="ios-home-outline" name="home"></ion-icon> BUSCA TU NIDOO
+      </button>
+      <button *ngIf="isLogin" (click)="goAuthaccount()" class="main-menu-ion-item" ion-item icon-left>
+        <ion-icon ios="ios-home-outline" name="person"></ion-icon> MI CUENTA
+      </button>
+      <button *ngIf="isLogin" (click)="goAuthlogout()" class="main-menu-ion-item" ion-item icon-left>
+        <ion-icon ios="ios-home-outline" name="log-out"></ion-icon> CERRAR SESIÓN
+      </button>
+      <button *ngIf="!isLogin" (click)="goAuthlogin()" class="main-menu-ion-item" ion-item icon-left>
+        <ion-icon ios="ios-home-outline" name="person"></ion-icon> INICIAR SESIÓN
+      </button>
+      <button *ngIf="!isLogin" (click)="goAuthregister()" class="main-menu-ion-item" ion-item icon-left>
+        <ion-icon ios="ios-home-outline" name="person-add"></ion-icon> REGISTRARSE
+      </button>     
+      <a (click)="goSite()" class="main-menu-ion-item" ion-item href="https://nidoo.com.co" icon-left>
+        <ion-icon ios="ios-home-outline" name="link"></ion-icon> NIDOO.COM.CO
+      </a>
+    </ion-list>                     
+  </ion-content>
+</ion-menu>
+<ion-nav #myNav [root]="rootPage" #content></ion-nav>
