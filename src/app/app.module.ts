@@ -26,6 +26,7 @@ import { AuthregisterPage } from '../pages/authregister/authregister';
 import { AuthaccountPage } from '../pages/authaccount/authaccount';
 import { AuthpasswordemailPage } from '../pages/authpasswordemail/authpasswordemail';
 import { NidooPage } from '../pages/nidoo/nidoo';
+import { ThankYouPage } from '../pages/thank-you/thank-you';
 
 import { NidooServiceProvider } from '../providers/nidoo-service/nidoo-service';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
@@ -45,7 +46,8 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service';
     AuthregisterPage,
     AuthaccountPage,
     AuthpasswordemailPage,
-    NidooPage
+    NidooPage,
+    ThankYouPage
   ],
   imports: [
     BrowserModule,
@@ -70,7 +72,8 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service';
     AuthregisterPage,
     AuthaccountPage,
     AuthpasswordemailPage,
-    NidooPage
+    NidooPage,
+    ThankYouPage
   ],
   providers: [
     StatusBar,

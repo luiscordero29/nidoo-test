@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Geolocation } from '@ionic-native/geolocation';
-import { NavController, AlertController, Events, Platform } from 'ionic-angular';
+import { NavController, AlertController, Events } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 import { GoogleMapsPage } from './../google-maps/google-maps';
 import { AuthServiceProvider } from '../../providers/auth-service/auth-service';
@@ -23,7 +23,6 @@ export class HomePage {
 		public storage: Storage,
 		public events: Events,
 		public geolocation: Geolocation,
-		private platform: Platform,
 	){
 		this.data = {
 			google_address: ''

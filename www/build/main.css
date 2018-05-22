@@ -26529,3 +26529,12 @@ page-reservations .alert {
 #nidoo-splash-screen .logo-nidoo {
   margin-top: 40%;
 }
+
+page-thank-you {
+  color: #804294;
+}
+
+page-thank-you h1 {
+  color: #804294;
+  font-size: 24px;
+}

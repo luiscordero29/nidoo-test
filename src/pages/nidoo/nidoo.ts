@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
+import { ThankYouPage } from '../../pages/thank-you/thank-you';
 import { AuthServiceProvider } from '../../providers/auth-service/auth-service';
 
 @IonicPage()
@@ -45,12 +46,7 @@ export class NidooPage {
       if(this.data.status_code == '201'){
         this.fieldsVal.email = '';
         this.fields.email = '';
-        let alert = this.alertCtrl.create({
-          title: '',
-          subTitle: 'Registrado!',
-          buttons: ['OK']
-        });
-        alert.present();
+        this.navCtrl.push(ThankYouPage);  
       }
     });
     loading.dismiss(); 

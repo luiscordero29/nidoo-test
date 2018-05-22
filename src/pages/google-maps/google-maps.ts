@@ -255,7 +255,6 @@ export class GoogleMapsPage {
     let n;
     let r;
     let Marker;
-    let MarkerGroup;
     let Reservations;
     let Address;
     let Nidoos;
@@ -270,7 +269,6 @@ export class GoogleMapsPage {
       parking = this.dataNidoos.message.parking; 
       path = this.dataNidoos.message.path; 
       Marker = this.dataNidoos.message.marker; 
-      MarkerGroup = this.dataNidoos.message.markergroup; 
       Reservations = this.dataNidoos.message.reservations; 
       Address = this.dataNidoos.message.address; 
       Nidoos = this.dataNidoos.message.nidoos; 
@@ -342,7 +340,6 @@ export class GoogleMapsPage {
     let n;
     let r;
     let Marker;
-    let MarkerGroup;
     let Reservations;
     let Address;
     let Nidoos;
@@ -355,8 +352,7 @@ export class GoogleMapsPage {
       this.dataNidoos = data;
       parking = this.dataNidoos.message.parking; 
       path = this.dataNidoos.message.path; 
-      Marker = this.dataNidoos.message.marker; 
-      MarkerGroup = this.dataNidoos.message.markergroup; 
+      Marker = this.dataNidoos.message.marker;  
       Reservations = this.dataNidoos.message.reservations; 
       Address = this.dataNidoos.message.address; 
       Nidoos = this.dataNidoos.message.nidoos; 
