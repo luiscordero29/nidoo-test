@@ -28,7 +28,7 @@ plugins/
 plugins/android.json
 plugins/ios.json
 # Subir para la web
-www/
+# www/
 $RECYCLE.BIN/
 
 .DS_Store
