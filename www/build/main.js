@@ -7,7 +7,7 @@ webpackJsonp([12],{
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NidooPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_thank_you_thank_you__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_thank_you_thank_you__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_service_auth_service__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -76,6 +76,51 @@ var NidooPage = /** @class */ (function () {
 /***/ }),
 
 /***/ 114:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThankYouPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ThankYouPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ThankYouPage = /** @class */ (function () {
+    function ThankYouPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ThankYouPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ThankYouPage');
+    };
+    ThankYouPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-thank-you',template:/*ion-inline-start:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/thank-you/thank-you.html"*/'<ion-content padding>\n  <ion-grid class="content-title">\n    <ion-row>\n      <ion-col col-12>\n        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>\n      </ion-col>\n      <ion-col col-12>\n        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam esse asperiores eos aspernatur ea blanditiis eligendi repellat architecto voluptas doloribus ducimus pariatur laboriosam quod, illo delectus rerum voluptates culpa vitae.\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/thank-you/thank-you.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+    ], ThankYouPage);
+    return ThankYouPage;
+}());
+
+//# sourceMappingURL=thank-you.js.map
+
+/***/ }),
+
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -148,7 +193,7 @@ var FavoritesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 115:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -221,7 +266,7 @@ var ReservationsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 116:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -294,7 +339,7 @@ var NidoosPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -375,7 +420,7 @@ var AuthpasswordemailPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -486,7 +531,7 @@ var AuthaccountPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -660,7 +705,7 @@ var AuthServiceProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 132:
+/***/ 133:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -673,11 +718,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 132;
+webpackEmptyAsyncContext.id = 133;
 
 /***/ }),
 
-/***/ 174:
+/***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -698,27 +743,27 @@ var map = {
 		8
 	],
 	"../pages/authregister/authregister.module": [
-		325,
+		324,
 		7
 	],
 	"../pages/favorites/favorites.module": [
-		324,
+		325,
 		6
 	],
 	"../pages/google-maps/google-maps.module": [
-		327,
+		326,
 		5
 	],
 	"../pages/nidoo/nidoo.module": [
-		326,
+		328,
 		4
 	],
 	"../pages/nidoos/nidoos.module": [
-		328,
+		331,
 		3
 	],
 	"../pages/reservations/reservations.module": [
-		329,
+		327,
 		2
 	],
 	"../pages/splash-screen/splash-screen.module": [
@@ -726,7 +771,7 @@ var map = {
 		1
 	],
 	"../pages/thank-you/thank-you.module": [
-		331,
+		329,
 		0
 	]
 };
@@ -741,18 +786,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 174;
+webpackAsyncContext.id = 175;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 175:
+/***/ 176:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_geolocation__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_geolocation__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__google_maps_google_maps__ = __webpack_require__(58);
@@ -811,12 +856,12 @@ var HomePage = /** @class */ (function () {
             this.NidooService.searchAddress(search).then(function (data) {
                 _this.data.address = data;
                 if (_this.data.address.status != 'OK') {
-                    var alert = _this.alertCtrl.create({
+                    var alert_1 = _this.alertCtrl.create({
                         title: 'Error',
                         subTitle: 'Ingrese una dirección valida!',
                         buttons: ['OK']
                     });
-                    alert.present();
+                    alert_1.present();
                     _this.data.google_address = '';
                     _this.items = [];
                 }
@@ -895,58 +940,18 @@ var HomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/home/home.html"*/'<ion-content padding id="nidoo-home">\n  \n  <ion-fab left top class="main-menu">\n    <button ion-fab menuToggle><ion-icon name="menu"></ion-icon></button>\n  </ion-fab>\n  \n  <ion-searchbar [(ngModel)]="data.google_address" (ionInput)="getItems($event)" class="main-search" placeholder="¿Dónde quieres parquear?"></ion-searchbar>\n  <ion-list class="items">\n    <ion-item *ngFor="let item of items" (click)="goGoogleMapsAddress(item)">\n      <ion-icon name="ios-locate-outline"></ion-icon> {{ item }}\n    </ion-item>\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__providers_auth_service_auth_service__["a" /* AuthServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__providers_auth_service_auth_service__["a" /* AuthServiceProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_6__providers_nidoo_service_nidoo_service__["a" /* NidooServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__providers_nidoo_service_nidoo_service__["a" /* NidooServiceProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* Events */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_auth_service_auth_service__["a" /* AuthServiceProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_nidoo_service_nidoo_service__["a" /* NidooServiceProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1__ionic_native_geolocation__["a" /* Geolocation */]])
     ], HomePage);
     return HomePage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 225:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThankYouPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ThankYouPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ThankYouPage = /** @class */ (function () {
-    function ThankYouPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ThankYouPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ThankYouPage');
-    };
-    ThankYouPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-thank-you',template:/*ion-inline-start:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/thank-you/thank-you.html"*/'<ion-content padding>\n  <ion-grid class="content-title">\n    <ion-row>\n      <ion-col col-12>\n        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>\n      </ion-col>\n      <ion-col col-12>\n        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam esse asperiores eos aspernatur ea blanditiis eligendi repellat architecto voluptas doloribus ducimus pariatur laboriosam quod, illo delectus rerum voluptates culpa vitae.\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/thank-you/thank-you.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
-    ], ThankYouPage);
-    return ThankYouPage;
-}());
-
-//# sourceMappingURL=thank-you.js.map
 
 /***/ }),
 
@@ -978,23 +983,23 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic_image_loader__ = __webpack_require__(316);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_google_maps__ = __webpack_require__(319);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_geolocation__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_splash_screen_splash_screen__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_geolocation__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_splash_screen_splash_screen__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_home__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_favorites_favorites__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_reservations_reservations__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_nidoos_nidoos__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_home__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_favorites_favorites__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_reservations_reservations__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_nidoos_nidoos__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_google_maps_google_maps__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_auth_auth__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_authlogin_authlogin__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_authregister_authregister__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_authaccount_authaccount__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_authpasswordemail_authpasswordemail__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_authaccount_authaccount__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_authpasswordemail_authpasswordemail__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_nidoo_nidoo__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_thank_you_thank_you__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_thank_you_thank_you__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__providers_nidoo_service_nidoo_service__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__providers_auth_service_auth_service__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1066,14 +1071,14 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/authaccount/authaccount.module#AuthaccountPageModule', name: 'AuthaccountPage', segment: 'authaccount', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/authlogin/authlogin.module#AuthloginPageModule', name: 'AuthloginPage', segment: 'authlogin', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/authpasswordemail/authpasswordemail.module#AuthpasswordemailPageModule', name: 'AuthpasswordemailPage', segment: 'authpasswordemail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/favorites/favorites.module#FavoritesPageModule', name: 'FavoritesPage', segment: 'favorites', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/authregister/authregister.module#AuthregisterPageModule', name: 'AuthregisterPage', segment: 'authregister', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/nidoo/nidoo.module#NidooPageModule', name: 'NidooPage', segment: 'nidoo', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/favorites/favorites.module#FavoritesPageModule', name: 'FavoritesPage', segment: 'favorites', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/google-maps/google-maps.module#GoogleMapsPageModule', name: 'GoogleMapsPage', segment: 'google-maps', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/nidoos/nidoos.module#NidoosPageModule', name: 'NidoosPage', segment: 'nidoos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reservations/reservations.module#ReservationsPageModule', name: 'ReservationsPage', segment: 'reservations', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/nidoo/nidoo.module#NidooPageModule', name: 'NidooPage', segment: 'nidoo', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/thank-you/thank-you.module#ThankYouPageModule', name: 'ThankYouPage', segment: 'thank-you', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/splash-screen/splash-screen.module#SplashScreenPageModule', name: 'SplashScreenPage', segment: 'splash-screen', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/thank-you/thank-you.module#ThankYouPageModule', name: 'ThankYouPage', segment: 'thank-you', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/nidoos/nidoos.module#NidoosPageModule', name: 'NidoosPage', segment: 'nidoos', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_6_ionic_image_loader__["a" /* IonicImageLoader */].forRoot(),
@@ -1122,13 +1127,13 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_google_maps_google_maps__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_splash_screen_splash_screen__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_splash_screen_splash_screen__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_authlogin_authlogin__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_authaccount_authaccount__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_authaccount_authaccount__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_authregister_authregister__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_storage__ = __webpack_require__(21);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1448,7 +1453,7 @@ var AuthregisterPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_service_auth_service__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_authregister_authregister__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_authpasswordemail_authpasswordemail__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_authpasswordemail_authpasswordemail__ = __webpack_require__(118);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1631,12 +1636,12 @@ var GoogleMapsPage = /** @class */ (function () {
             this.NidooService.searchAddress(search).then(function (data) {
                 _this.data.address = data;
                 if (_this.data.address.status != 'OK') {
-                    var alert = _this.alertCtrl.create({
+                    var alert_1 = _this.alertCtrl.create({
                         title: 'Error',
                         subTitle: 'Ingrese una dirección valida!',
                         buttons: ['OK']
                     });
-                    alert.present();
+                    alert_1.present();
                     _this.data.google_address = '';
                     _this.items = [];
                 }
@@ -1967,16 +1972,22 @@ var GoogleMapsPage = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* Slides */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* Slides */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* Slides */])
     ], GoogleMapsPage.prototype, "slidesNidoos", void 0);
     GoogleMapsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-google-maps',template:/*ion-inline-start:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/google-maps/google-maps.html"*/'<ion-content>\n    \n  <ion-searchbar [(ngModel)]="data.google_address" (ionInput)="getItems($event)" class="main-search" placeholder="¿Dónde quieres parquear?"></ion-searchbar>\n  <ion-list class="items">\n    <ion-item *ngFor="let item of items" (click)="goGoogleMapsAddress(item)">\n      <ion-icon name="ios-locate-outline"></ion-icon> {{ item }}\n    </ion-item>\n  </ion-list>\n\n  <ngui-map \n    zoom = "{{ MapZoom }}" \n    center = "{{ MapCenter }}" \n    >\n    <marker \n      *ngFor = "let address of positionsAddress" \n      (click)="showNidoos(address.nidoos)"        \n      [position] = "address.LatLng"\n      [icon] = "address.icon"\n      >\n    </marker>\n  </ngui-map>\n\n  <ion-slides class="footer-nidoos" [hidden]="!IfFooter" pager>\n    <ion-slide *ngFor = "let nidoo of ShowNidoos">\n      \n      <ion-fab class="btn-close-footer-nidoos">\n        <button (click)="hideNidoos()" ion-fab mini color="dark"><ion-icon name="close"></ion-icon></button>\n      </ion-fab>\n      <ion-grid class="nidoo-detail">\n        <ion-row>\n          <ion-col col-12>\n            <div text-center class="thumbnail">\n              <img-loader src="{{ nidoo.photo }}" style="background-position: center center"></img-loader>\n            </div>\n          </ion-col>\n          <ion-col col-12>\n            <div text-center class="text-primary">\n              {{ nidoo.address_one}}\n            </div>\n          </ion-col>\n          <ion-col col-12>\n            <div text-center class="text-secondary">\n              <b>Tipo de Vehiculo:</b> {{ nidoo.type}}\n            </div>\n          </ion-col>\n          <ion-col col-12>\n            <div text-center class="text-secondary">\n              <b>Espacios Disponibles:</b> {{ nidoo.spaces }}\n            </div>\n          </ion-col> [virtualScroll]="nidoo"\n        </ion-row>\n      </ion-grid>\n      <button (click)="viewNidoo(nidoo.id)" ion-button block large class="btn-reservation">SELECCIONAR PARQUEADERO</button>\n    \n    </ion-slide>\n  </ion-slides>\n\n  <ion-fab (click)="filterNidoos(\'car\')" *ngIf="data.typeVehicle.car" bottom left class="nidoo-car">\n    <button ion-fab>\n      Carro\n    </button>\n  </ion-fab>\n\n  <ion-fab (click)="filterNidoos(\'bicycle\')" *ngIf="data.typeVehicle.bicycle" bottom center class="nidoo-bicycle">\n    <button ion-fab>\n      Bici\n    </button>\n  </ion-fab>\n\n  <ion-fab (click)="filterNidoos(\'motorcycle\')" *ngIf="data.typeVehicle.motorcycle" bottom right class="nidoo-motorcycle">\n    <button ion-fab>\n      Moto\n    </button>\n  </ion-fab>\n         \n</ion-content>'/*ion-inline-end:"/home/luiscordero29/Projects/nidoo/nidoo-test/src/pages/google-maps/google-maps.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__providers_nidoo_service_nidoo_service__["a" /* NidooServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_nidoo_service_nidoo_service__["a" /* NidooServiceProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ModalController */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_4__providers_auth_service_auth_service__["a" /* AuthServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_auth_service_auth_service__["a" /* AuthServiceProvider */]) === "function" && _j || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_nidoo_service_nidoo_service__["a" /* NidooServiceProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_auth_service_auth_service__["a" /* AuthServiceProvider */]])
     ], GoogleMapsPage);
     return GoogleMapsPage;
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
 }());
 
 //# sourceMappingURL=google-maps.js.map
@@ -1989,10 +2000,10 @@ var GoogleMapsPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__favorites_favorites__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__reservations_reservations__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nidoos_nidoos__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__favorites_favorites__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__reservations_reservations__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nidoos_nidoos__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_auth_service_auth_service__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
